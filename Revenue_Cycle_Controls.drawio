@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.3" pages="2">
   <diagram name="Page-1" id="4Z0eiURFbJlbntJqtPmm">
     <mxGraphModel dx="946" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -150,6 +150,30 @@
         </mxCell>
         <mxCell id="vn3zzVWjVJF90COV2nuS-44" parent="1" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Billing / Accounts Receivable&lt;/span&gt;" vertex="1">
           <mxGeometry height="270" width="880" x="40" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="HqaeqMKjjb29BllxR3ha-1" parent="vn3zzVWjVJF90COV2nuS-44" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Dispatch Confirmation Received" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HqaeqMKjjb29BllxR3ha-2" parent="vn3zzVWjVJF90COV2nuS-44" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Payment Received from Customer" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HqaeqMKjjb29BllxR3ha-7" edge="1" parent="vn3zzVWjVJF90COV2nuS-44" source="HqaeqMKjjb29BllxR3ha-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HqaeqMKjjb29BllxR3ha-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqaeqMKjjb29BllxR3ha-3" parent="vn3zzVWjVJF90COV2nuS-44" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" value="Invoice Generated &amp;amp; Sent to Customer" vertex="1">
+          <mxGeometry height="60" width="100" x="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HqaeqMKjjb29BllxR3ha-4" parent="vn3zzVWjVJF90COV2nuS-44" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" value="Remittance Advice Recorded" vertex="1">
+          <mxGeometry height="60" width="100" x="550" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HqaeqMKjjb29BllxR3ha-6" edge="1" parent="vn3zzVWjVJF90COV2nuS-44" source="HqaeqMKjjb29BllxR3ha-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="HqaeqMKjjb29BllxR3ha-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqaeqMKjjb29BllxR3ha-8" edge="1" parent="vn3zzVWjVJF90COV2nuS-44" source="HqaeqMKjjb29BllxR3ha-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="HqaeqMKjjb29BllxR3ha-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqaeqMKjjb29BllxR3ha-5" edge="1" parent="1" source="iGXTCDAQ4ymGj2Gwkeii-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HqaeqMKjjb29BllxR3ha-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
