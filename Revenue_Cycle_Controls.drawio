@@ -25,6 +25,18 @@
         <mxCell id="_bJalAcwOi4JYEhiBxRC-29" parent="_bJalAcwOi4JYEhiBxRC-21" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fillColor=#dae8fc;strokeColor=#FFCCE6;" value="&lt;font&gt;Order Details Entered into System&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="310" y="10" as="geometry" />
         </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-32" parent="_bJalAcwOi4JYEhiBxRC-21" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#f8cecc;strokeColor=#FFFF66;" value="Sales Order Generated" vertex="1">
+          <mxGeometry height="60" width="100" x="450" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-33" edge="1" parent="_bJalAcwOi4JYEhiBxRC-21" source="_bJalAcwOi4JYEhiBxRC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_bJalAcwOi4JYEhiBxRC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-34" parent="_bJalAcwOi4JYEhiBxRC-21" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fa6800;fontColor=#000000;strokeColor=#FF0000;" value="Credit Check Approved?" vertex="1">
+          <mxGeometry height="100" width="100" x="580" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-35" edge="1" parent="_bJalAcwOi4JYEhiBxRC-21" source="_bJalAcwOi4JYEhiBxRC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_bJalAcwOi4JYEhiBxRC-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-22" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Warehouse Department&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="120" width="870" y="140" as="geometry" />
         </mxCell>
