@@ -52,17 +52,28 @@
         <mxCell id="_bJalAcwOi4JYEhiBxRC-35" edge="1" parent="_bJalAcwOi4JYEhiBxRC-21" source="_bJalAcwOi4JYEhiBxRC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_bJalAcwOi4JYEhiBxRC-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_bJalAcwOi4JYEhiBxRC-39" parent="_bJalAcwOi4JYEhiBxRC-21" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Order Rejected- Customer Notified" vertex="1">
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-39" parent="_bJalAcwOi4JYEhiBxRC-21" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#e51400;fontColor=#ffffff;strokeColor=#FF8000;" value="Order Rejected- Customer Notified" vertex="1">
           <mxGeometry height="100" width="100" x="580" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="_bJalAcwOi4JYEhiBxRC-40" parent="_bJalAcwOi4JYEhiBxRC-21" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Sales Order Authorized &amp;amp; Released to Warehouse" vertex="1">
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-40" parent="_bJalAcwOi4JYEhiBxRC-21" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#008a00;fontColor=#ffffff;strokeColor=#66FF66;" value="Sales Order Authorized &amp;amp; Released to Warehouse" vertex="1">
           <mxGeometry height="100" width="100" x="790" as="geometry" />
         </mxCell>
-        <mxCell id="_bJalAcwOi4JYEhiBxRC-22" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Warehouse Department&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-22" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#C4E8BB;strokeColor=#82b366;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Warehouse Department&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="220" width="890" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-41" parent="_bJalAcwOi4JYEhiBxRC-22" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#33FFFF;fillColor=#C4E8BB;fontColor=#ffffff;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Sales Order Received by Warehouse&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="30" as="geometry" />
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-23" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Billing / Accounts Receivable&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="220" width="890" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-42" edge="1" parent="_bJalAcwOi4JYEhiBxRC-20" source="_bJalAcwOi4JYEhiBxRC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_bJalAcwOi4JYEhiBxRC-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="280" />
+              <mxPoint x="90" y="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
