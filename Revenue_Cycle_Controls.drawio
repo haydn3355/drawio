@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.3" pages="2">
   <diagram name="Page-1" id="4Z0eiURFbJlbntJqtPmm">
     <mxGraphModel dx="946" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         <mxCell id="_bJalAcwOi4JYEhiBxRC-40" parent="_bJalAcwOi4JYEhiBxRC-21" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#008a00;fontColor=#ffffff;strokeColor=#66FF66;" value="Sales Order Authorized &amp;amp; Released to Warehouse" vertex="1">
           <mxGeometry height="100" width="100" x="790" as="geometry" />
         </mxCell>
-        <mxCell id="_bJalAcwOi4JYEhiBxRC-22" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#C4E8BB;strokeColor=#82b366;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Warehouse Department&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-22" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Warehouse Department&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="250" width="890" y="270" as="geometry" />
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-41" parent="_bJalAcwOi4JYEhiBxRC-22" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#33FFFF;fillColor=#C4E8BB;fontColor=#ffffff;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Sales Order Received by Warehouse&lt;/font&gt;" vertex="1">
@@ -115,11 +115,13 @@
         <mxCell id="_bJalAcwOi4JYEhiBxRC-55" parent="_bJalAcwOi4JYEhiBxRC-22" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#3333FF;" value="Shipping Authorization Verified&amp;nbsp;" vertex="1">
           <mxGeometry height="60" width="120" x="690" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="_bJalAcwOi4JYEhiBxRC-56" parent="_bJalAcwOi4JYEhiBxRC-22" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#66FF66;" value="Continued Page 2" vertex="1">
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-56" parent="_bJalAcwOi4JYEhiBxRC-22" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#66B2FF;strokeColor=#7F00FF;" value="Continued Page 2" vertex="1">
           <mxGeometry height="80" width="80" x="710" y="150" as="geometry" />
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-23" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Billing / Accounts Receivable&lt;/font&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="220" width="890" y="520" as="geometry" />
+          <mxGeometry height="220" width="890" y="520" as="geometry">
+            <mxRectangle height="30" width="890" y="520" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-42" edge="1" parent="_bJalAcwOi4JYEhiBxRC-20" source="_bJalAcwOi4JYEhiBxRC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_bJalAcwOi4JYEhiBxRC-41">
           <mxGeometry relative="1" as="geometry">
@@ -128,6 +130,23 @@
               <mxPoint x="90" y="280" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wgukEzh5Jd-i05fd3EKv" name="Page 2">
+    <mxGraphModel dx="946" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vn3zzVWjVJF90COV2nuS-43" parent="1" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Warehouse Department&lt;/span&gt;" vertex="1">
+          <mxGeometry height="280" width="880" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kXPYDnNszDIZ0R_f5mgt-1" parent="vn3zzVWjVJF90COV2nuS-43" style="shape=offPageConnector;whiteSpace=wrap;html=1;strokeColor=#7F00FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;horizontal=1;fillColor=#66B2FF;direction=east;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Continued Page 2&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vn3zzVWjVJF90COV2nuS-44" parent="1" style="swimlane;startSize=20;horizontal=0;html=1;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;Billing / Accounts Receivable&lt;/span&gt;" vertex="1">
+          <mxGeometry height="280" width="880" x="40" y="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
