@@ -4,6 +4,21 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-20" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Kissena Bakery — Revenue Cycle (Order-to-Cash)&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="380" width="870" x="50" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-21" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Sales Department&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="870" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-24" parent="_bJalAcwOi4JYEhiBxRC-21" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#C4E8BB;strokeColor=#33FFFF;" value="&lt;b&gt;START&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="30" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-22" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Warehouse Department&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="870" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-23" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Billing / Accounts Receivable&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="870" y="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
