@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_bJalAcwOi4JYEhiBxRC-20" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Kissena Bakery — Revenue Cycle (Order-to-Cash)&lt;/font&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="710" width="890" x="50" y="40" as="geometry" />
+          <mxGeometry height="740" width="890" x="50" y="40" as="geometry" />
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-21" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Sales Department&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="250" width="890" y="20" as="geometry" />
@@ -41,9 +41,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_bJalAcwOi4JYEhiBxRC-38" edge="1" parent="_bJalAcwOi4JYEhiBxRC-21" source="_bJalAcwOi4JYEhiBxRC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="No - Rejected">
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-38" edge="1" parent="_bJalAcwOi4JYEhiBxRC-21" source="_bJalAcwOi4JYEhiBxRC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_bJalAcwOi4JYEhiBxRC-39" value="No - Rejected">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="150" as="targetPoint" />
+            <mxPoint x="660" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-34" parent="_bJalAcwOi4JYEhiBxRC-21" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Credit Check Approved?" vertex="1">
@@ -59,13 +59,42 @@
           <mxGeometry height="100" width="100" x="790" as="geometry" />
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-22" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#C4E8BB;strokeColor=#82b366;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Warehouse Department&lt;/font&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="220" width="890" y="270" as="geometry" />
+          <mxGeometry height="250" width="890" y="270" as="geometry" />
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-41" parent="_bJalAcwOi4JYEhiBxRC-22" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#33FFFF;fillColor=#C4E8BB;fontColor=#ffffff;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Sales Order Received by Warehouse&lt;/font&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="30" y="30" as="geometry" />
         </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-45" edge="1" parent="_bJalAcwOi4JYEhiBxRC-22" source="_bJalAcwOi4JYEhiBxRC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-46" connectable="0" parent="_bJalAcwOi4JYEhiBxRC-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes- In Stock" vertex="1">
+          <mxGeometry relative="1" x="0.0286" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-47" edge="1" parent="_bJalAcwOi4JYEhiBxRC-22" source="_bJalAcwOi4JYEhiBxRC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_bJalAcwOi4JYEhiBxRC-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-48" connectable="0" parent="_bJalAcwOi4JYEhiBxRC-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No- Out of Stock" vertex="1">
+          <mxGeometry relative="1" x="0.0857" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-43" parent="_bJalAcwOi4JYEhiBxRC-22" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3333FF;" value="Inventory Available?" vertex="1">
+          <mxGeometry height="100" width="100" x="190" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-44" edge="1" parent="_bJalAcwOi4JYEhiBxRC-22" source="_bJalAcwOi4JYEhiBxRC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_bJalAcwOi4JYEhiBxRC-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-49" parent="_bJalAcwOi4JYEhiBxRC-22" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#FFB570;" value="Escalate to Manager- Back-Order or Cancel" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="170" as="geometry" />
+        </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-23" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start; text-wrap-mode: wrap; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Billing / Accounts Receivable&lt;/font&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="220" width="890" y="490" as="geometry" />
+          <mxGeometry height="220" width="890" y="520" as="geometry" />
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-42" edge="1" parent="_bJalAcwOi4JYEhiBxRC-20" source="_bJalAcwOi4JYEhiBxRC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_bJalAcwOi4JYEhiBxRC-41">
           <mxGeometry relative="1" as="geometry">
