@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_bJalAcwOi4JYEhiBxRC-20" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Kissena Bakery — Revenue Cycle (Order-to-Cash)&lt;/font&gt;&lt;/span&gt;" vertex="1">
+        <mxCell id="_bJalAcwOi4JYEhiBxRC-20" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;strokeColor=default;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; font-size: 12.512px; font-weight: 400; text-align: start;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Kissena Bakery — Revenue Cycle (Order-to-Cash)&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="560" width="890" x="40" y="100" as="geometry" />
         </mxCell>
         <mxCell id="_bJalAcwOi4JYEhiBxRC-21" parent="_bJalAcwOi4JYEhiBxRC-20" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value=" " vertex="1">
@@ -128,6 +128,9 @@
         </mxCell>
         <mxCell id="v3Bab7pVSSQnkWFr-wHE-1" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;dashPattern=8 8;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=2;fontSize=10;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Control Activity CA-01&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;To determine customers that qualify as too risky to place an order&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="190" x="660" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Bab7pVSSQnkWFr-wHE-3" edge="1" parent="1" source="v3Bab7pVSSQnkWFr-wHE-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.81;entryY=0.315;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;startArrow=none;startFill=0;elbow=vertical;dashed=1;endArrow=none;endFill=0;" target="_bJalAcwOi4JYEhiBxRC-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
