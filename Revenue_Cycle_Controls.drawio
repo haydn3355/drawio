@@ -126,7 +126,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v3Bab7pVSSQnkWFr-wHE-1" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;dashPattern=8 8;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=2;fontSize=10;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Control Activity CA-01&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="v3Bab7pVSSQnkWFr-wHE-1" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;dashPattern=8 8;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=2;fontSize=10;" value="&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Control Activity CA-01&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Share Tech Mono&amp;quot;, monospace; text-align: start; background-color: rgba(0, 245, 255, 0.08);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;To determine customers that qualify as too risky to place an order&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="190" x="660" y="20" as="geometry" />
         </mxCell>
       </root>
